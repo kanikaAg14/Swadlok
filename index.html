@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swadlok – Indian Street Food Safari</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Swadlok</div>
+            <nav>
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#featured-states-food"> Featured</a></li> 
+                    <li><a href="#all-states"> All States</a></li> 
+                    <li><a href="#special-items"> Special Items</a></li>
+                    <li><a href="#stories"> Stories</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li>
+                        <a href="#cart">
+                            <i class="fa fa-shopping-cart"></i> Cart
+                            <span id="cart-item-count" class="cart-count-badge">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay">
+            <h1>Swadlok – Your Street Food Safari Across India</h1>
+            <p>From Varanasi's Kachori to Kolkata's Puchka, explore the authentic flavors of India’s gallis and nukkads.</p>
+            <div class="buttons">
+                <a href="#featured-states-food" class="btn">Explore Featured</a> 
+                <a href="#all-states" class="btn">View All States</a> 
+            </div>
+        </div>
+    </section>
+
+    <!--Featured States Food Section (Homepage Display) -->
+    <section id="featured-states-food" class="states-section">
+        <h2>Popular Dishes from Across India</h2>
+        <div id="featured-food-items-container" class="food-items-grid"></div>
+        <div class="text-center mt-8">
+            <a href="#all-states" class="btn">View All States' Dishes</a>
+        </div>
+    </section>
+
+    <!--All States Section -->
+    <section id="all-states" class="states-section">
+        <h2>Taste the Streets of Every State & UT</h2>
+        <div id="food-items-container" class="food-items-grid"></div>
+    </section>
+
+    <!-- Must-Try Special Items -->
+    <section id="special-items" class="special-items">
+        <h2>Must-Try Special Items</h2>
+        <div class="food-grid">
+            <div class="food-card">
+                <img src="https://bhojmasale.com/cdn/shop/articles/delicious-pav-bhaji-recipe-a-step-by-step-guide-930907_1024x1024.webp?v=1739152900" alt="Pav Bhaji">
+                <p>Pav Bhaji</p>
+            </div>
+            <div class="food-card">
+                <img src="https://amritsr.com/wp-content/uploads/2021/04/cholle-bhature.jpeg" alt="Chole Bhature">
+                <p>Chole Bhature</p>
+            </div>
+            <div class="food-card">
+                <img src="https://c.ndtvimg.com/2023-03/0m65kep_samosa_625x300_10_March_23.jpg" alt="Samosa">
+                <p>Samosa</p>
+            </div>
+            <div class="food-card">
+                <img src="https://www.natashamohan.com/wp-content/uploads/2025/01/Weight-Loss-Momos-Recipe-scaled.webp" alt="Momos">
+                <p>Momos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Delivery Process -->
+    <section class="delivery-process">
+        <h2>Our Delivery Process</h2>
+        <div class="process-steps">
+            <div class="step">
+                <img src="https://png.pngtree.com/png-vector/20240929/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-png-image_13983760.png" alt="Locate Food">
+                <p>Locate Food</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn.dribbble.com/userupload/38100646/file/still-3c71fd6968bf3266009ae00dfc660164.gif" alt="Place Order">
+                <p>Place Order</p>
+            </div>
+            <div class="step">
+                <img src="https://quick-works.com/wp-content/uploads/2023/11/Quick-Delivery.png" alt="Quick Delivery">
+                <p>Quick Delivery</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="stories" class="testimonials-section">
+        <h2>Customer Stories</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Akhil P.">
+                <h4>Akhil P.</h4>
+                <p>Swadlok brought back memories of Delhi’s chaat flavors right to my home. Their momos are a must try!</p>
+                <p class="stars">★★★★★</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya M.">
+                <h4>Priya M.</h4>
+                <p>As a Bengali, I was thrilled to taste authentic Puchkas delivered fresh to my doorstep. Fantastic service!</p>
+                <p class="stars">★★★★★</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rajesh S.">
+                <h4>Rajesh S.</h4>
+                <p>The Pav Bhaji was bursting with flavor! Swadlok truly delivers the essence of India’s gallis.</p>
+                <p class="stars">★★★★★</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="https://randomuser.me/api/portraits/women/58.jpg" alt="Neha T.">
+                <h4>Neha T.</h4>
+                <p>Thanks to Swadlok, I got to explore the diverse street foods of India from the comfort of my house. Highly recommended!</p>
+                <p class="stars">★★★★★</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <p>Coming soon! Explore our food gallery.</p>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span id="close-cart" class="close-cart">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p id="cart-total">Total: ₹0</p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Custom Alert Modal -->
+    <div id="custom-alert-modal" class="cart-modal" style="display: none;">
+        <div class="cart-modal-content" style="text-align: center; max-width: 300px;">
+            <p id="custom-alert-message" style="font-size: 1.1em; font-weight: bold;"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
